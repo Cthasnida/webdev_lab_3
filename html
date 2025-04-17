@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Personal Website</title>
+  <style>
+    /* Reset and base */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    header {
+      width: 100%;
+      max-width: 900px;
+      background: #005f73;
+      color: #fff;
+      padding: 20px 40px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #94d2bd;
+      font-weight: 600;
+      margin-right: 20px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ee9b00;
+    }
+    main {
+      width: 100%;
+      max-width: 900px;
+      background: white;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    section h2 {
+      font-size: 2rem;
+      color: #0a9396;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #94d2bd;
+      padding-bottom: 8px;
+    }
+    /* Biodata styling */
+    .biodata-list {
+      list-style: none;
+      font-size: 1.1rem;
+      max-width: 500px;
+    }
+    .biodata-list li {
+      margin-bottom: 10px;
+    }
+    /* Hobbies styling */
+    .hobbies-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 700px;
+    }
+    .hobby {
+      background: #ee9b00;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 12px;
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      flex: 1 1 150px;
+      text-align: center;
+      transition: background 0.3s ease;
+      cursor: default;
+    }
+    .hobby:hover {
+      background: #ca6702;
+    }
+    /* Campus life styling */
+    .campus-life-list {
+      max-width: 700px;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+    .campus-life-list img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    /* Footer */
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    /* Anchor target offset for smooth scroll */
+    section:target {
+      scroll-margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Personal Website</h1>
+    <nav>
+      <a href="#biodata">Biodata</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#campus-life">Campus Life</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Biodata Section -->
+    <section id="biodata" tabindex="-1">
+      <h2>Biodata</h2>
+      <ul class="biodata-list">
+        <li><strong>Name:</strong> Siti Hasnida Binti Nasib</li>
+        <li><strong>Date of Birth:</strong> April 12, 2003</li>
+        <li><strong>Email:</strong> sitihasnida11@gmail.com</li>
+        <li><strong>Phone:</strong> +60 17-273 6230</li>
+        <li><strong>Address:</strong> Selangor, Malaysia</li>
+        <li><strong>Education:</strong> Bachelor of Information Technology, Universiti Tun Hussien Onn, UTHM</li>
+      </ul>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" tabindex="-1">
+      <h2>Hobbies</h2>
+      <div class="hobbies-list">
+        <div class="hobby">Reading</div>
+        <div class="hobby">Photography</div>
+        <div class="hobby">Traveling</div>
+        <div class="hobby">Sleeping</div>
+        <div class="hobby">Cooking</div>
+      </div>
+    </section>
+
+    <!-- Campus Life Section -->
+    <section id="campus-life" tabindex="-1">
+      <h2>Campus Life</h2>
+      <div class="campus-life-list">
+        <p>
+          During my time at university, I had the chance to dive into a range of programs and activities that really shaped my personal and academic journey. One of the highlights was attending the UNI-Versal Symposium: Empower Your Mind, where I listened to some incredible speakers like Mr. Iddin Ramli, Madam Najwa Latif, and Mr. Sakthivel. Their insights truly inspired me and pushed me to always seek personal growth.
+        </p>
+        <br>
+        <p>
+          Beyond academics, I took on a leadership role with the Exco Corporate and Network Members, which was a fantastic opportunity to hone my communication and teamwork skills. It also gave me the chance to connect with fellow student leaders and learn about the ins and outs of managing student organizations.
+        </p>
+        <br>
+        <p>
+          Volunteering was another rewarding part of my campus experience. I got involved in the Boost Learning Program for SPM Students at PPTA UTHM, where I guided students through the university library and showed them all the resources available. It felt great to support and motivate younger students on their academic paths.
+        </p>
+        <br>
+        <p>
+          When I wasn't busy with formal events, I loved hanging out with friends, whether we were studying together or just chilling around campus. These moments not only enriched my university experience but also helped me grow as a person, both personally and professionally.
+        </p>
+        <img src="WhatsApp Image 2025-04-17 at 22.42.00_71280663.jpg" alt="UNI-VERSAL SYMPOSIUM" />
+        <img src="WhatsApp Image 2025-04-17 at 22.42.01_3af2e36e.jpg" alt="Program with SPM Student">
+        <img src="WhatsApp Image 2025-04-17 at 23.02.25_e767ac8a.jpg" alt="My Friends">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Siti Hasnida. All rights reserved.
+  </footer>
+</body>
+</html>
