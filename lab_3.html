@@ -50,6 +50,27 @@
     nav a:hover {
       color: #ee9b00;
     }
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 600px; /* Adjust width to fit your layout */
+      height: auto;
+      margin: 0 auto 30px auto; /* center and space below */
+    }
+    td {
+      border: 1px solid black;
+      padding: 10px 15px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    img {
+      max-width: 100px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
     main {
       width: 100%;
       max-width: 900px;
@@ -134,15 +155,72 @@
   <main>
     <section id="biodata" tabindex="-1">
       <h2>Biodata</h2>
-      <ul class="biodata-list">
-        <li><strong>Name:</strong> Siti Hasnida Binti Nasib</li>
-        <li><strong>Date of Birth:</strong> April 12, 2003</li>
-        <li><strong>Email:</strong> sitihasnida11@gmail.com</li>
-        <li><strong>Phone:</strong> +60 17-273 6230</li>
-        <li><strong>Address:</strong> Selangor, Malaysia</li>
-        <li><strong>Education:</strong> Bachelor of Information Technology, Universiti Tun Hussien Onn, UTHM</li>
-      </ul>
-    </section>
+      <table border="1">
+        <tr>
+          <td>Name</td>
+          <td>Siti Hasnida Binti Nasib</td>
+          <td><img src="Profile.jpg" alt="Siti Hasnida Photo" width="100"></td>
+        </tr>
+        <tr>
+          <td>Date of Birth</td>
+          <td colspan="2">12 April 2003</td>
+        </tr>
+        <tr>
+          <td>Religion</td>
+          <td colspan="2">Islam</td>
+        </tr>
+        <tr>
+          <td>Race</td>
+          <td colspan="2">Malay</td>
+        </tr>
+        <tr>
+          <td rowspan="4">Address</td>
+          <td>Street</td>
+          <td>No 33 Jalan Meranti 3A/11</td>
+        </tr>
+        <tr>
+          <td>Town</td>
+          <td>Batang Kali</td>
+        </tr>
+        <tr>
+          <td>District</td>
+          <td>Hulu Selangor</td>
+        </tr>
+        <tr>
+          <td>State</td>
+          <td>Selangor</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Contact</td>
+          <td>Mobile Phone</td>
+          <td>0172736230</td>
+        </tr>
+        <tr>
+          <td>Social Media</td>
+          <td>Instagram: <a href="https://www.instagram.com/cthasnida/">@cthasnida</a></td>
+        </tr>
+        <tr>
+          <td>Website</td>
+          <td>Github: <a href="https://github.com/Cthasnida">github.com/Cthasnida</a></td>
+        </tr>
+        <tr>
+          <td>Course and Institution</td>
+          <td colspan="2">Information Technology, UTHM</td>
+        </tr>
+        <tr>
+          <td>Programming Skills</td>
+          <td colspan="2">HTML, Java, Phyton</td>
+        </tr>
+        <tr>
+          <td>Hobbies</td>
+          <td colspan="2">Sleeping</td>
+        </tr>
+        <tr>
+          <td>2025 Wishlist</td>
+          <td colspan="2">Dean list for Sem 5</td>
+        </tr>
+      </table>
+    </section>    
 
     <section id="hobbies" tabindex="-1">
       <h2>Hobbies</h2>
